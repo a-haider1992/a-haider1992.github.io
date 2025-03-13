@@ -9,9 +9,6 @@
             font-family: Arial, sans-serif;
             margin: 20px;
         }
-        h1 {
-            color: #333;
-        }
         p {
             line-height: 1.6;
         }
@@ -35,12 +32,22 @@
             <li>Insufficient training data</li>
             <li>Training for too many epochs</li>
         </ul>
-        
+        <style>
+            header {
+                background-color: black;
+                color: white;
+                text-align: center;
+            }
+            .container {
+                color: black;
+                padding: 20px;
+                border-radius: 8px;
+            }
+        </style>
         <h2>Preventing Overfitting</h2>
         <ul>
             <li>Use simpler models</li>
             <li>Gather more training data</li>
-            <li>Use techniques like cross-validation</li>
             <li>Apply regularization methods (L1, L2)</li>
             <li>Use dropout layers in neural networks</li>
             <li>Early stopping during training</li>
